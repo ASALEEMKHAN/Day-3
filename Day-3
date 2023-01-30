@@ -1,1 +1,170 @@
+# Day-3
+1.For the given JSON iterate over all for loops (for, for in, for of, forEach)?
+
+Ans:-
+
+let obj = [
+    {
+     name:"Mohan",
+     age:2,
+     company:"Guvi",
+    },
+    {
+     name:"Rohan",
+     age:3,
+     company:"Guvi Geeks",
+    },
+    {
+     name:"Raju",
+     age:4,
+     company:"Guvi Geek Network",
+    },
+]
+ 
+
+
+//Normal for loop
+
+for (let i=0; i<obj.length; i++){
+    console.log(`
+    Name:${obj[i].name}
+    Age:${obj[i].age}
+    Company:${obj[i].company}
+    `);
+    }
+
+    
+//for in loop
+  
+for (let index in obj){
+    console.log(`
+    Name:${obj[index].name}
+    Age:${obj[index].age}
+    Company:${obj[index].company}
+    `);
+    }
+
+//for of loop
+
+for (let i of obj){
+    console.log(`
+    Name:${i.name}
+    Age:${i.age}
+    Company:${i.company}
+    `);
+    } 
+
+ //for Each loop
+
+obj.forEach((item)=>{
+    console.log(`
+    Name:${item.name}
+    Age:${item.age}
+    Company:${item.company}
+    `)
+    });
+
+//output 
+
+    Name:Mohan
+    Age:2
+    Company:Guvi
+    
+    Name:Rohan
+    Age:3
+    Company:Guvi Geeks
+   
+    Name:Raju
+    Age:4
+    Company:Guvi Geek Network 
+
+
+2.Create your own resume data in JSON format?
+
+Ans:-
+
+let CANDIDATE = {
+
+    "name": "Saleem Khan.A",
+    "age": 24,
+    "mobile": 6381373426,
+    "E-mail": "asaleemkhan386@gmail.com",
+    
+    "ACADEMICRECORDS": {
+    "SateBoard Percentage": "10th, 70.75%",
+    "Paste out": 2013,
+    "Higher Secondary Percentage": "12, 61.75%",
+    "Paste out": 2015,
+    "Graduate Percentage": "B.sc(chemistry), 53.80%",
+    "Paste out": 2018,
+    },
+    
+    "Address": {
+    "No": "21B",
+    "Street": "Srinivasa Nager Pungambedu",
+    "City": "Minjur",
+    "Pincode":"chennai-601203",
+    "Country": "India",
+    },
+    
+    "TECHNICAL KNOWLEDGE": {
+    a: "Minerals Testing,Edible oils",
+    b: "Basic Computer",
+    c: "Learning Full Stack Web Development",
+    },
+    
+    "COMPETENCIES": {
+    a: "Fast learner,Adapt Well to Changes and Pressures in Workplace",
+    b: "Work Effectively With Diverse Groups of People",
+    c: "Good Communication and Interpersonal Skill",
+    },
+    
+    "LANGUAGES KNOWN":{
+    a: "TAMIL",
+    b: "ENGLISH",
+    c: "HINDI",
+    },
+    
+    "EXRACURRICULAR ACTIVITIES & ACHIEVEMENTS": {
+    a: "Writting,Technical Skill",
+    b: "Athletice",
+    },
+    
+    "EXPERIENCE": {
+    "Company Name": "KARVIN PVT LTD",
+    "Experience": "Dec 2018 & July 2019",
+    "Posting": "Process Associate",
+    "Company Name": "INTERTEK PVT LTD",
+    "Experience": "Sep 2020 & Jan 2023 Still Working",
+    "Posting": "Chemist",
+    },
+    
+    "HOBBIES":{
+    a: "Playing Video Games",
+    b :"Listening to Music",
+    c: "Foot Ball",
+    },
+    
+    "PERSONAL DATAILS":{
+    "Father Name": "Akbar Khan",
+    "Mother Name": "Jarina",
+    "Date of Birth" :"15.04.1998",
+    "Sex": "Male",
+    "Nationality": "Indian",
+    "Religion": "Muslim",
+    },
+    
+    "DECLARATION":{
+    a:"I Confirm that the Information Provied by me is true to the best of my Knowledge and Belief",
+    },
+
+  };
+    
+    console.log(CANDIDATE);
+    
+
+
+
+
+
 
