@@ -98,13 +98,14 @@ let CANDIDATE = {
     "Graduate Percentage": "B.sc(chemistry), 53.80%",
     "Paste out": 2018,
     },
-    
-    "Address": {
-    "No": "21B",
-    "Street": "Srinivasa Nager Pungambedu",
-    "City": "Minjur",
-    "Pincode":"chennai-601203",
-    "Country": "India",
+
+   "EXPERIENCE": {
+    "Company Name": "KARVIN PVT LTD",
+    "Experience": "Dec 2018 & July 2019",
+    "Posting": "Process Associate",
+    "Company Name": "INTERTEK PVT LTD",
+    "Experience": "Sep 2020 & Jan 2023 Still Working",
+    "Posting": "Chemist",
     },
     
     "TECHNICAL KNOWLEDGE": {
@@ -118,40 +119,25 @@ let CANDIDATE = {
     b: "Work Effectively With Diverse Groups of People",
     c: "Good Communication and Interpersonal Skill",
     },
-    
+
     "LANGUAGES KNOWN":{
     a: "TAMIL",
     b: "ENGLISH",
     c: "HINDI",
     },
     
-    "EXRACURRICULAR ACTIVITIES & ACHIEVEMENTS": {
-    a: "Writting,Technical Skill",
-    b: "Athletice",
-    },
-    
-    "EXPERIENCE": {
-    "Company Name": "KARVIN PVT LTD",
-    "Experience": "Dec 2018 & July 2019",
-    "Posting": "Process Associate",
-    "Company Name": "INTERTEK PVT LTD",
-    "Experience": "Sep 2020 & Jan 2023 Still Working",
-    "Posting": "Chemist",
-    },
-    
-    "HOBBIES":{
-    a: "Playing Video Games",
-    b :"Listening to Music",
-    c: "Foot Ball",
-    },
-    
     "PERSONAL DATAILS":{
-    "Father Name": "Akbar Khan",
-    "Mother Name": "Jarina",
     "Date of Birth" :"15.04.1998",
     "Sex": "Male",
     "Nationality": "Indian",
-    "Religion": "Muslim",
+    },
+
+   "Address": {
+    "No": "21B",
+    "Street": "Srinivasa Nager Pungambedu",
+    "City": "Minjur",
+    "Pincode":"chennai-601203",
+    "Country": "India",
     },
     
     "DECLARATION":{
